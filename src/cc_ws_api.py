@@ -14,7 +14,7 @@ import json
 import websockets
 
 async def ccdata():
-    url = "wss://data-streamer.cryptocompare.com?api_key=803f1ec2ed502f45ab26d655cce46879acb134d5b9fc205ffd5958a40c16f76b"
+    url = "wss://data-streamer.cryptocompare.com?api_key="
     async with websockets.connect(url) as websocket:
         await websocket.send(json.dumps({
             "action": "SUBSCRIBE",
