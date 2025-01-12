@@ -1,5 +1,5 @@
 .idea
 venv
-src/data/crypto_compare/.env
+.env
 notes
-/src/data/crypto_compare/cc_rest_client/ohlcv_data
+ohlcv_data
