@@ -2,3 +2,4 @@
 venv
 src/data/crypto_compare/.env
 notes
+ohlcv_data
