@@ -1,4 +1,4 @@
 .idea
 venv
-.env
+src/data/crypto_compare/.env
 notes
